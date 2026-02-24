@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -33,6 +34,9 @@ export default function Home() {
             </a>{" "}
             center.
           </p>
+          <Button className="mt-2" variant="default">
+            Test shadcn Button
+          </Button>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <a
